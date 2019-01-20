@@ -1,0 +1,59 @@
+“Winsock_TcpCli.exe”(Win32): 已加载“K:\Git\Repos\VC-Projects\Debug\Winsock_TcpCli.exe”。已加载符号。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\ntdll.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\kernel32.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\KernelBase.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\ws2_32.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\msvcrt.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\rpcrt4.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\sspicli.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\cryptbase.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\sechost.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\nsi.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\msvcp140d.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\vcruntime140d.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\ucrtbased.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\api-ms-win-core-localization-l1-2-0.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\api-ms-win-core-processthreads-l1-1-1.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\api-ms-win-core-file-l1-2-0.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\api-ms-win-core-timezone-l1-1-0.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\api-ms-win-core-file-l2-1-0.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\api-ms-win-core-synch-l1-2-0.dll”。无法查找或打开 PDB 文件。
+线程 0x2de4 已退出，返回值为 0 (0x0)。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Program Files (x86)\Sangfor\AF\SSL\ClientComponent5\SangforTcp.dll”。模块已生成，不包含符号。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\shlwapi.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\gdi32.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\user32.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\advapi32.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\lpk.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\usp10.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\mfc42.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\ole32.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\oleaut32.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\odbc32.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\shell32.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\urlmon.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\api-ms-win-downlevel-ole32-l1-1-0.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\api-ms-win-downlevel-shlwapi-l1-1-0.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\api-ms-win-downlevel-advapi32-l1-1-0.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\api-ms-win-downlevel-user32-l1-1-0.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\api-ms-win-downlevel-version-l1-1-0.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\version.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\api-ms-win-downlevel-normaliz-l1-1-0.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\normaliz.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\iertutil.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\wininet.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\userenv.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\profapi.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\msvcp60.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\IPHLPAPI.DLL”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\winnsi.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\crypt32.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\msasn1.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\imm32.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\msctf.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\odbcint.dll”。模块已生成，不包含符号。
+CSProxy refcount 87
+Loading K:\Git\Repos\VC-Projects\Debug\Winsock_TcpCli.exe...
+WSPStartup ===> K:\Git\Repos\VC-Projects\Debug\Winsock_TcpCli.exe使用链式SPI“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\mswsock.dll”。无法查找或打开 PDB 文件。
+“Winsock_TcpCli.exe”(Win32): 已加载“C:\Windows\SysWOW64\WSHTCPIP.DLL”。无法查找或打开 PDB 文件。
+[WSPConnect] Socket ip 127.0.0.1:8888
