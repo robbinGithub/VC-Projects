@@ -13,6 +13,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Winsock_TcpSrv", "Winsock_T
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Winsock_TcpCli", "Winsock_TcpCli\Winsock_TcpCli.vcxproj", "{D002E33E-6695-49D4-93C9-170B43BBCF41}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BankServer", "ABCBank\BankServer\BankServer.vcxproj", "{81DA1A1E-7B5E-4F3C-A0EE-9D263D0FF115}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BankClient", "ABCBank\BankClient\BankClient.vcxproj", "{380667FC-964A-4D8E-9891-D382D4286501}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -61,6 +65,22 @@ Global
 		{D002E33E-6695-49D4-93C9-170B43BBCF41}.Release|Win32.Build.0 = Release|Win32
 		{D002E33E-6695-49D4-93C9-170B43BBCF41}.Release|x64.ActiveCfg = Release|x64
 		{D002E33E-6695-49D4-93C9-170B43BBCF41}.Release|x64.Build.0 = Release|x64
+		{81DA1A1E-7B5E-4F3C-A0EE-9D263D0FF115}.Debug|Win32.ActiveCfg = Debug|Win32
+		{81DA1A1E-7B5E-4F3C-A0EE-9D263D0FF115}.Debug|Win32.Build.0 = Debug|Win32
+		{81DA1A1E-7B5E-4F3C-A0EE-9D263D0FF115}.Debug|x64.ActiveCfg = Debug|x64
+		{81DA1A1E-7B5E-4F3C-A0EE-9D263D0FF115}.Debug|x64.Build.0 = Debug|x64
+		{81DA1A1E-7B5E-4F3C-A0EE-9D263D0FF115}.Release|Win32.ActiveCfg = Release|Win32
+		{81DA1A1E-7B5E-4F3C-A0EE-9D263D0FF115}.Release|Win32.Build.0 = Release|Win32
+		{81DA1A1E-7B5E-4F3C-A0EE-9D263D0FF115}.Release|x64.ActiveCfg = Release|x64
+		{81DA1A1E-7B5E-4F3C-A0EE-9D263D0FF115}.Release|x64.Build.0 = Release|x64
+		{380667FC-964A-4D8E-9891-D382D4286501}.Debug|Win32.ActiveCfg = Debug|Win32
+		{380667FC-964A-4D8E-9891-D382D4286501}.Debug|Win32.Build.0 = Debug|Win32
+		{380667FC-964A-4D8E-9891-D382D4286501}.Debug|x64.ActiveCfg = Debug|x64
+		{380667FC-964A-4D8E-9891-D382D4286501}.Debug|x64.Build.0 = Debug|x64
+		{380667FC-964A-4D8E-9891-D382D4286501}.Release|Win32.ActiveCfg = Release|Win32
+		{380667FC-964A-4D8E-9891-D382D4286501}.Release|Win32.Build.0 = Release|Win32
+		{380667FC-964A-4D8E-9891-D382D4286501}.Release|x64.ActiveCfg = Release|x64
+		{380667FC-964A-4D8E-9891-D382D4286501}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
