@@ -4,7 +4,7 @@
 #include "../Public/Socket.h"
 #include "../Public/Jutil.h"
 #include "../Public/MD5.h"
-//#include "../Public/Idea.h"
+#include "../Public/Idea.h"
 
 using namespace PUBLIC;
 
@@ -36,7 +36,12 @@ struct RequestPack
 
 struct ResponseHead
 {
-
+	unsigned short cmd;
+	unsigned short len;
+	unsigned short cnt;
+	unsigned short seq;
+	unsigned short error_code;
+	char error_msg[30];
 };
 
 // Ó¦´ð°ü
@@ -55,7 +60,7 @@ public:
 	void Kill() { isDead_ = true; }
 	void Process();
 	uint16 GetCmd() const { return requestPack_->head.cmd; }
-	RequestPack* GetRequest()const { return requestPack_; }
+	RequestPack* GetRequestPack()const { return requestPack_; }
 	void Send(const char* buf, size_t len);
 	void Recv();
 	void DoAction();

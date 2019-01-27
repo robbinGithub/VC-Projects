@@ -50,7 +50,7 @@ private:
 
 	const char* Peek() const
 	{
-		return &*buffer_.begin() + currIndex_;
+		return &*buffer_.begin() + currIndex_;  //这里为什么要&*?
 	}
 
 	std::vector<char> buffer_;

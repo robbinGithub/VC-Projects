@@ -69,7 +69,7 @@ private:
 	void EnsureWritableBytes(size_t len)
 	{
 		if (WriteableBytes() < len)
-			buffer_.resize(currIndex_ + len);
+			buffer_.resize(currIndex_ + len); // À©ÈÝ
 	}
 	
 	void Append(const char*  data, size_t len);

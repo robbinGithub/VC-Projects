@@ -18,7 +18,6 @@ BankThread::~BankThread()
 
 void BankThread::Run()
 {
-	LOG_INFO << "Æô¶¯·þÎñÆ÷...";
 	/*int ret;
 	while (1)
 	{
@@ -50,8 +49,8 @@ void BankThread::Run()
 		socket_->Send(buffer, ret);
 	}*/
 
-	BankSession* bs = new BankSession();
-	while(!bs->IsDead)
+	BankSession* bs = new BankSession(socket_);
+	while(!bs->IsDead())
 	try
 	{
 		bs->Process();

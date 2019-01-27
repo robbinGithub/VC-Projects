@@ -73,6 +73,9 @@ void JOutStream::WriteBytes(const void* data, size_t len)
 void JOutStream::Append(const char* data, size_t len)
 {
 	EnsureWritableBytes(len);
+	//fist [IN]: 要拷贝元素的首地址
+	//last [IN]:要拷贝元素的最后一个元素的下一个地址
+	//x [OUT] : 拷贝的目的地的首地址
 	std::copy(data, data+len, buffer_.begin()+currIndex_);
 	currIndex_ += len;
 }

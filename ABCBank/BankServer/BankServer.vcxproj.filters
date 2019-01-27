@@ -19,6 +19,9 @@
     <Filter Include="CMD">
       <UniqueIdentifier>{28ff1ee7-3351-423d-be7e-d9de47b99b79}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DAL">
+      <UniqueIdentifier>{bc514775-df5c-44fd-999d-536612eaedb0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Public\Date.cpp">
@@ -110,6 +113,12 @@
     </ClCompile>
     <ClCompile Include="TransactionManager.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DAL\BankService.cpp">
+      <Filter>DAL</Filter>
+    </ClCompile>
+    <ClCompile Include="DAL\MysqlDB.cpp">
+      <Filter>DAL</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -205,6 +214,21 @@
     </ClInclude>
     <ClInclude Include="TransactionManager.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DAL\Account.h">
+      <Filter>DAL</Filter>
+    </ClInclude>
+    <ClInclude Include="DAL\BankService.h">
+      <Filter>DAL</Filter>
+    </ClInclude>
+    <ClInclude Include="DAL\IBankService.h">
+      <Filter>DAL</Filter>
+    </ClInclude>
+    <ClInclude Include="DAL\MysqlDB.h">
+      <Filter>DAL</Filter>
+    </ClInclude>
+    <ClInclude Include="DAL\TransDetail.h">
+      <Filter>DAL</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

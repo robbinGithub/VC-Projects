@@ -99,13 +99,19 @@ JInStream& JInStream::operator>>(int32& x)
 	return *this;
 }
 
+// 读取2个字节的长度 + 字符串内容
 JInStream& JInStream::operator>>(std::string& str)
-{
+{   
+	// 读取长度
 	uint16 len;
 	*this>>len;
 	assert(ReadableBytes() >= len);
+	
+	// 读取字符串内容 
 	str.clear();
 	str.append(Peek(), len);
+
+	// 移动索引下标
 	currIndex_ += len;
 
 	return *this;

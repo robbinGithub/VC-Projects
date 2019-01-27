@@ -1,15 +1,11 @@
 #include "BankSession.h"
 #include "../Public/Exception.h"
 #include "../Public/Singleton.h"
+#include "TransactionManager.h"
 
 BankSession::BankSession(std::auto_ptr<Socket>& socket):socket_(socket)
 {
 	requestPack_ = (RequestPack*)buffer_;
-}
-
-
-BankSession::BankSession(std::auto_ptr<Socket>& socket)
-{
 }
 
 BankSession::~BankSession()
@@ -24,6 +20,7 @@ void BankSession::Process()
 
 void BankSession::Send(const char * buf, size_t len)
 {
+	socket_->SendN(buf, len);
 }
 
 void BankSession::Recv()
@@ -64,5 +61,5 @@ void BankSession::Recv()
 
 void BankSession::DoAction()
 {
-	// Singleton<TransactionManager>::Instance().DoAction(*this);
+	Singleton<TransactionManager>::Instance().DoAction(*this);
 }
