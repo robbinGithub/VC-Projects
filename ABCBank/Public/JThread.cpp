@@ -21,6 +21,7 @@ JThread::~JThread()
 }
 bool JThread::Start()
 {
+	// _beginthreadex是一个C运行时库的函数，CreateThread是一个系统API函 数，_beginthreadex内部调用了CreateThread
 	hThread_ = (HANDLE)_beginthreadex(NULL,0,ThreadFun,(void*)this,0,&threadId_);
 	return (hThread_ != NULL); 
 }

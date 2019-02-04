@@ -52,8 +52,8 @@ void BankSession::Recv()
 	MD5 md5;         
 	md5.MD5Make(hash, (unsigned char const  *) buffer_, sizeof(RequestHead) + len - 8);
 
-	if (memcmp(hash, buffer_ + sizeof(RequestHead) + len - 8, 8))
-		throw Exception("错误的数据包");
+	/*if (memcmp(hash, buffer_ + sizeof(RequestHead) + len - 8, 8))
+		throw Exception("错误的数据包");*/
 
 	requestPack_->head.cmd = cmd;
 	requestPack_->head.len = len;

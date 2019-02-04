@@ -66,7 +66,7 @@ public:
 	void DoAction();
 
 private:
-	bool isDead_;
+	bool isDead_ = false;
 	std::auto_ptr<Socket> socket_;
 	char buffer_[2048];
 	RequestPack* requestPack_;

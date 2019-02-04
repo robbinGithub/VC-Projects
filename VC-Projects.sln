@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BankServer", "ABCBank\BankS
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BankClient", "ABCBank\BankClient\BankClient.vcxproj", "{380667FC-964A-4D8E-9891-D382D4286501}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinThread", "WinThread\WinThread.vcxproj", "{A65AB530-8776-4003-9E9F-CF7AF7DCFDE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -81,6 +83,14 @@ Global
 		{380667FC-964A-4D8E-9891-D382D4286501}.Release|Win32.Build.0 = Release|Win32
 		{380667FC-964A-4D8E-9891-D382D4286501}.Release|x64.ActiveCfg = Release|x64
 		{380667FC-964A-4D8E-9891-D382D4286501}.Release|x64.Build.0 = Release|x64
+		{A65AB530-8776-4003-9E9F-CF7AF7DCFDE5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A65AB530-8776-4003-9E9F-CF7AF7DCFDE5}.Debug|Win32.Build.0 = Debug|Win32
+		{A65AB530-8776-4003-9E9F-CF7AF7DCFDE5}.Debug|x64.ActiveCfg = Debug|x64
+		{A65AB530-8776-4003-9E9F-CF7AF7DCFDE5}.Debug|x64.Build.0 = Debug|x64
+		{A65AB530-8776-4003-9E9F-CF7AF7DCFDE5}.Release|Win32.ActiveCfg = Release|Win32
+		{A65AB530-8776-4003-9E9F-CF7AF7DCFDE5}.Release|Win32.Build.0 = Release|Win32
+		{A65AB530-8776-4003-9E9F-CF7AF7DCFDE5}.Release|x64.ActiveCfg = Release|x64
+		{A65AB530-8776-4003-9E9F-CF7AF7DCFDE5}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
