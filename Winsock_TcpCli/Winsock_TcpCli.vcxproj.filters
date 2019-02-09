@@ -26,5 +26,8 @@
     <ClCompile Include="Winsock_TcpCli.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Winsock_TcpCli_close.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
